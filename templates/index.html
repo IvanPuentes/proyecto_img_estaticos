@@ -1,0 +1,59 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}">
+
+<title>
+    Mi Proyecto
+</title>
+
+
+<div id="principal">
+
+<div id="titulo">
+    <div id="titulo1">
+        <h1 id="titulo1_t">Descubre algo nuevo</h1>
+    </div>
+    <div id="titulo2">
+        <h1 id="titulo2_t">Animex </h1>
+        <h2 id="titulo2_t_2">juegos, animes, mangas y Mas </h2>
+    </div>
+</div><!--div titulo-->
+
+<div id="contenido">
+   
+  
+   <div id="contenido_1">
+       <div id="contendio1_link1"><a href="{% url 'anime' %}"><img src="{% static 'img/Anime.jpg'%}" id="img1"></a></div>
+      
+    </div>
+
+
+   <div id="contenido_2">
+        <div id="contendio1_link1"><a href="{% url 'juegos' %}"><img src="{% static 'img/juegos.png'%}" id="img1"></a></div>
+       
+    </div>
+   
+   
+   
+   <div id="contenido_3">
+        <div id="contendio1_link1"><a href="{% url 'Mangas' %}"><img src="{% static 'img/mangas.jpg'%}" id="img1"></a></div>
+       
+    </div>
+  
+   <div id="contenido_4">
+    <img src="{% static 'img/logo.jpg'%}" id="img1">
+   </div>
+  
+  
+
+
+
+</div><!--div contenido-->
+
+
+<div id="footer">
+    <p >&derechos reservados del alumno Ivan Andres Puentes Cortez</p>
+</div>
+
+</div> <!--div principal-->
+
+

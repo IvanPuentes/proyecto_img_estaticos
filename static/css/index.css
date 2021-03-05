@@ -1,0 +1,133 @@
+
+#imagentec{
+    width: 200px;
+    height: 220px;
+}
+
+    #principal{
+       
+        height: 600px;
+        width: 1350px;
+    }
+    #titulo{
+        height: 100px;
+    }
+    #acercade{
+        height: 400px;
+        width: 1350px;
+        background-color:rgba(243, 247, 0, 0.24);
+        margin-top: 50px;
+    }
+
+    #titulo1{
+        background-color: rgb(83, 2, 2);
+        color: white;
+        height: 100px;
+        width: 25%;
+        float: right;
+        
+    }
+
+    #titulo2{
+        background-color:rgb(0, 0, 0);
+        height: 100px;
+        width: 75%;
+        color: white;
+    }
+
+
+    #titulo1_t{
+       text-align: center;
+    }
+    #titulo2_t{
+       text-align: center;
+       color:rgb(255, 255, 255);
+    }
+    #titulo2_t_2{
+       text-align: center;
+       color:rgb(8, 104, 194);
+    }
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+    #contenido{
+        height: 400px;
+    }
+
+
+   
+
+    #contendio1_link1{
+        height: 75%;
+    }
+
+    #img1{
+        height: 100%;
+        width: 100%;
+    }
+
+    #contendio1_link2{
+        height: 25%;
+        text-align: center;
+        background-color: black;
+    }
+    a{
+        color:white;
+    }
+
+    p{
+       text-align: center;
+       margin-top: 50px;
+    }
+
+    #contenido_1{
+      
+      height: 600px;
+      width: 250px;
+      float: left;
+      margin-right: 10px;
+      margin-top: 10px;
+  }  
+
+    #contenido_2{
+       
+        height: 600px;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+    }  
+    
+    #contenido_3{
+       
+        height: 600px;
+        width: 250px;
+        float: left;
+        margin-right: 10px;
+        margin-top: 10px;
+        
+    }  
+    
+    
+    
+    #contenido_4{
+      
+        height: 100%;
+        width: 500px;
+        float: right;
+        margin-top: 10px;
+        margin-right: 20px;
+    }  
+    
+    #footer{
+        height: 50px;
+        
+    }
+
